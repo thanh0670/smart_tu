@@ -1,0 +1,79 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App .wrapper {
+  margin-top: 40px;
+  width: 1045px;
+}
+.App .wrapper header {
+  margin-bottom: 25px;
+}
+.App .wrapper header h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+}
+.App .wrapper .access {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #333;
+  margin-bottom: 102px;
+}
+.App .wrapper .access h4 {
+  font-size: 64px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: 300;
+}
+.App .wrapper .tu {
+  width: 500px;
+  height: 500px;
+  border: 5px solid #333;
+  margin: 0 auto;
+  background-color: #C8D6E5;
+  display: flex;
+  flex-direction: column;
+}
+.App .wrapper .tu .display {
+  width: 300px;
+  height: 100px;
+  background-color: #fff;
+  border: 5px solid #333;
+  margin: 34px auto 76px auto;
+}
+.App .wrapper .tu .display p {
+  text-align: center;
+  font-size: 48px;
+  line-height: 100px;
+}
+.App .wrapper .tu .key {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 5px solid #333;
+  margin-left: 379px;
+}
+
+.default {
+  background-color: #fff;
+}
+
+.access-key {
+  background-color: #18C109;
+}
+
+.denied-key {
+  background-color: #FF0000;
+}
+
+.access-UID {
+  color: #18C109;
+}
+
+.denied-UID {
+  color: #FF0000;
+}/*# sourceMappingURL=App.css.map */
